@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lanf="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Political Meter</title>
+</head>
+<body class="container">
+  <h1>Political Meter</h1>
+  <p>To find out if you are liberal, moderate, or conservative answer the following questions:</p>
+  <form id="politicalMeter">    
+    <label for="education">Do you value public education?</label>
+    <select id="education">
+      <option value="yes1">Yes</option>
+      <option value="no1">No</option>
+    </select>
+    <label for="gunControl">Do you believe we need more gun control?</label>
+    <select id="gunControl">
+      <option value="yes2">Yes</option>
+      <option value="no2">No</option>
+    </select>
+    <button type="submit" class="btn">show my results</button>
+  </form>
+    <div id="liberal">
+      <p>You are more Liberal!</p>
+    </div>
+    <div id="conservative">
+      <p>You are more conservative!</p>
+    </div>
+    <div id="moderate">
+      <p>You are more moderate!</p>
+    </div>
+</body>
+</html>
